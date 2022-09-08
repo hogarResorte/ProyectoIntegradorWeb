@@ -16,7 +16,7 @@
       <h1>wwwapas</h1>
       <ul>
         <li>
-        <a href="#">Inicio</li></a> <a href="#contacto">Contacto</a> <a href="#servicios">Servicios</a>
+        <a href="#">Inicio</a> <a href="#contacto">Contacto</a> <a href="#servicios">Servicios</a>
         </li>
       </ul>
     </nav>
@@ -31,8 +31,7 @@
           Nos encargamos de construir, gestionar y administrar la comunidad
           online de tu marca, empresa o negocio.
           <strong>
-            ¡Creamos relaciones estables y duraderas con tus clientes!</strong
-          >
+            ¡Creamos relaciones estables y duraderas con tus clientes!</strong>
         </p>
       </section>
     </header>
@@ -101,6 +100,21 @@
       <section>
         <h4>¿Quéres que nos contactemos con vos?</h4>
         <p>Envianos tu consulta >></p>
+
+        <form action="codigo.php" method="post">
+
+          <label>Nombre <span>*</span></label>
+          <input type="text" required placeholder="Juan García">
+          <label>Email <span>*</span></label>
+          <input type="email" placeholder="info@mimail.com" required>
+          <label>Mensaje <span>*</span></label>
+          <textarea required></textarea>
+
+          <button>Enviar consulta</button>
+          <input type="reset" value="Borrar">
+
+        </form>
+
       </section>
     
     </div>
@@ -109,27 +123,44 @@
 
   <aside>
 
-    <a href="https://www.instagram.com">
-      <img src="instagram-icon.png" alt="instagram">
-    </a>
+    <section>
+      <div>
+         <p>redes <br> wwwapas</p>
+      </div>
 
-    <a href="https://www.instagram.com">
-      <img src="dribbble-icon.png" alt="dribble">
-    </a> 
+      <div>
+        <a title="instagram educacion it" href="https://www.instagram.com" target="_blank">
+          <img src="instagram-icon.png" alt="instagram">
+        </a>
+      </div>
 
-    <a href="https://www.linkedin.com">
-      <img src="linkedin-icon.png" alt="linkedin">
-    </a>
+      <div>
+        <a href="https://www.instagram.com">
+          <img src="dribbble-icon.png" alt="dribble">
+        </a> 
+      </div>
 
-    <a href="https://www.facebook.com">
-      <img src="facebook-icon.png" alt="facebook">
-    </a>
+      <div>
+        <a href="https://www.linkedin.com">
+            <img src="linkedin-icon.png" alt="linkedin">
+        </a>
+      </div>
+
+      <div>
+       <a title="facebook educacion"  href="https://www.facebook.com" target="_blank">
+          <img src="facebook-icon.png" alt="facebook">
+       </a>
+      </div> 
+
+    </section>
+
   </aside>
       
-    <footer>
+  <footer>
       <h1>wwwapas</h1>
       <a href="mailto: wwwwapas_sm@gmail.com">wwwwapas_sm@gmail.com</a>
-    </footer>
+  </footer>
 
   </body>
+
 </html>
